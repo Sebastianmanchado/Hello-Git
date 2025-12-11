@@ -1,0 +1,33 @@
+Comandos Git
+Ver un directorio: ls
+cd
+cd ..
+pwd 
+mkdir (nombre carpeta nueva)
+code - abre vsc 
+git config - - global - configuracion para trabajar en git global con mi usuario desde mi equipo
+touch nombrearchivo - creo fichero 
+Para inicializr control de versiones - en directorio raiz git init
+
+Al hacer git init se crea archivo oculto .git 
+
+
+Para crear ramas: 
+Tengo una rama master o main - Hello git
+
+git branch -m main cambio nombre a main de la rama principal
+
+git status me da el estado del proyecto 
+me dice los ficheros que tengo
+
+git add añado un fichero
+git add . añado todos los pendientes 
+
+git commit abre archivo temporal para commit 
+
+git commit -m
+
+
+Si quisiera volver a una branch anterior 
+git checkout
+

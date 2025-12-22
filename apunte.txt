@@ -31,3 +31,65 @@ git commit -m
 Si quisiera volver a una branch anterior 
 git checkout
 
+Git log 
+Git reset
+
+git alias -> puedo crear alias, para abreviar comandos 
+por ejemplo una para ver todos los commit 
+
+git log --graph --decorate --all --oneline
+
+git config --global alias.tree "log --graph --decorate --all --oneline"
+
+Git checkout hellogit2.py - Vuelve al ultimo commit 
+
+Si quiero voler a la ultima en todo el poryecto 
+git reset
+
+
+touch archivo -- Crea algo 
+
+Touch .gitignore -- Creo archivo oculto (.) gitignore
+
+**/.Nomostrar.txt asi evito incluir un fichero 
+
+git diff - Puedo ver todos los cambios entre el ultimo commit y el estado actual del proyecto 
+
+
+Para voler a estado anterior del proyecto 
+
+git checkout HASH del momento del proyecto - Vuelve a ese momento 
+
+el hash lo saco de git log 
+
+Head es donde estoy situado
+
+
+Si quiero resetear algo, eliminar alguno de los ultimos commits
+Tengo que hacer git reset  --hard hash 
+Eso elimina los commits posteriores al hash, me deja head 
+en el hash indicado
+
+git reflog 
+me tira todo el historial de interacciones hecho en git para el proyecto 
+puedo hacer git reset hard a cualquier parte, inclusive las eliminadas con git reset hard anteriormente. 
+
+
+git tag 
+Puedo usarlo para etiquetar commits
+Los uso en puntos importantes, cunado quiero guardar
+esa etapa del proyecyo 
+los tags suelen ser las versiones de una app 
+
+tag dia 1 
+git tag clase_1
+si lo hago asi me pine el tag donde tengo mi head
+
+
+
+git reset --hard ddb6a6a
+
+git revert elimina una parte del grafo 
+elimino comits
+
+git branch login - creo una rama llamada login a partir de donde tengo head
